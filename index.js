@@ -1,4 +1,4 @@
-var Stream = require('stream');
+var Stream = require('juliangruber-stream');
 
 function fwd(src, dest, rules) {
   var emit = src.emit;
